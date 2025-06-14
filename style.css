@@ -1,0 +1,383 @@
+@font-face {
+  font-family: "Gemstone";
+  src: url(../fonts/gemstone/Gemstone.ttf);
+}
+@font-face {
+  font-family: "ghostphobia";
+  src: url(../fonts/ghostphobia/Ghostphobia.ttf);
+}
+@font-face {
+  font-family: "Metal Mania";
+  src: url(../fonts/Metal_Mania/MetalMania-Regular.ttf);
+}
+@font-face {
+  font-family: "Nunito_Sans";
+  src: url(../fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf);
+}
+body {
+  background-color: #292929;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+main {
+  padding: 20px;
+}
+main h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imglogo {
+  display: flex;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container img {
+  max-width: 250px;
+  width: 100%;
+}
+
+.subtitulohtml1 {
+  font-family: "Gemstone";
+  color: rgb(228, 67, 34);
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo2html1 {
+  font-family: "Gemstone";
+  color: rgb(224, 103, 82);
+  font-size: 150%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.plataformas {
+  font-family: "ghostphobia";
+  color: rgb(224, 103, 82);
+}
+
+#plataforma {
+  background-color: #422b2b;
+  color: #131212;
+  font-family: "ghostphobia";
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  appearance: none;
+}
+#plataforma option {
+  background-color: #e46262;
+  color: #000000;
+  font-family: "ghostphobia";
+}
+
+.grid-juegos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.juego {
+  background-color: #291616;
+  padding: 15px;
+  border-radius: 0 50px;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.juego:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(218, 71, 71, 0.2);
+}
+.juego img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30px 0;
+  margin-top: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.nombre-de-juegos {
+  font-family: "Metal Mania";
+}
+
+.tipodejuego {
+  font-family: "Nunito_Sans";
+}
+
+.ver-mas-container {
+  text-align: center;
+  margin: 40px;
+}
+
+.ver-mas, .btn-sm, .enviar {
+  display: inline-block;
+  background-color: #d4543d;
+  color: #000;
+  font-family: "Metal Mania";
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.ver-mas:hover, .btn-sm:hover, .enviar:hover {
+  background-color: #020000;
+  color: #dd0d0d;
+  transform: scale(1.05);
+}
+
+.contacto h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #eb5a41;
+  font-family: "Metal Mania";
+}
+
+.email-msj {
+  color: #eb5a41;
+  font-family: "Metal Mania";
+}
+
+.footer-redes {
+  background-color: #291616;
+  padding: 30px 0;
+  border-radius: 50px;
+}
+
+.texto-redes {
+  font-family: "ghostphobia";
+  color: rgb(201, 79, 58);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.iconos-redes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.iconos-redes img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+.iconos-redes img:hover {
+  transform: scale(1.2);
+}
+
+.Derechos {
+  padding: 30px 0;
+  text-align: center;
+  font-family: "ghostphobia";
+  color: #1b0808;
+}
+
+.titulos {
+  font-family: "ghostphobia";
+  color: tomato;
+}
+
+.personaje-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  background-color: #292020;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+.personaje-container img {
+  border-radius: 50px;
+}
+.personaje-container.invertido {
+  direction: rtl;
+}
+
+.imagen {
+  width: 100%;
+  height: 800px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.nombrepj {
+  font-family: "ghostphobia";
+  font-size: 300%;
+  color: black;
+}
+
+.edadpj {
+  font-family: "ghostphobia";
+  font-size: 150%;
+}
+
+.pjtexto1, .pjtexto {
+  font-family: "ghostphobia";
+  color: rgb(0, 0, 0);
+}
+.pjtexto1.pjtexto, .pjtexto.pjtexto {
+  color: tomato;
+}
+
+.pjtextogrande {
+  font-family: "ghostphobia";
+  color: tomato;
+  font-size: 20px;
+}
+
+.escenario-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.escenarios {
+  padding: 40px 20px;
+  text-align: center;
+  color: rgb(172, 82, 82);
+}
+.escenarios h2 {
+  font-family: "ghostphobia";
+  color: tomato;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.escenario, .escenarioerend {
+  background-color: #222;
+  padding: 15px;
+  border-radius: 50px;
+  transition: transform 0.3s;
+}
+.escenario img, .escenarioerend img {
+  width: 100%;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.escenario:hover, .escenarioerend:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(216, 105, 105, 0.2);
+}
+.escenario.escenarioerend, .escenarioerend.escenarioerend {
+  background-color: #160e0e;
+  width: 50%;
+}
+.escenario h3, .escenarioerend h3 {
+  font-size: 1.5rem;
+  margin: 10px 0 5px;
+  font-family: "ghostphobia";
+}
+.escenario p, .escenarioerend p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #ccc;
+  font-family: "ghostphobia";
+}
+
+.escenariohorizon {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+.escenariohorizon img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+.escenariohorizon h3 {
+  font-size: 2rem;
+  margin: 10px 0 5px;
+  font-family: "ghostphobia";
+}
+.escenariohorizon p {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #ccc;
+  font-family: "ghostphobia";
+}
+.escenariohorizon:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(216, 105, 105, 0.2);
+  border-radius: 20px;
+}
+
+.custom-navbar {
+  background-color: rgba(66, 24, 24, 0.7);
+  backdrop-filter: blur(5px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.custom-navbar .navbar-brand {
+  color: rgb(10, 0, 0) !important;
+  font-family: "Metal Mania";
+  font-weight: bold;
+  font-size: 1.9rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+.custom-navbar .navbar-brand:hover {
+  color: tomato !important;
+}
+.custom-navbar .nav-link {
+  color: #000;
+  font-weight: bold;
+  font-family: "Metal Mania";
+  font-size: 20px;
+}
+.custom-navbar .nav-link:hover {
+  color: rgb(214, 82, 59);
+}
+.custom-navbar .dropdown-menu {
+  background-color: tomato;
+}
+.custom-navbar .dropdown-item {
+  font-family: "ghostphobia";
+}
+.custom-navbar form input,
+.custom-navbar form button {
+  border-radius: 50px;
+}
+.custom-navbar form input::placeholder,
+.custom-navbar form button::placeholder {
+  color: rgb(252, 7, 7);
+}
+.custom-navbar .navbar-collapse {
+  justify-content: center;
+}
+
+.btn-sm {
+  box-shadow: none;
+}
+
+.text-center {
+  font-family: "Metal Mania";
+}
+
+@media (max-width: 768px) {
+  .personaje-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
