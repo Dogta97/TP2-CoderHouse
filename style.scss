@@ -1,5 +1,5 @@
-$primary-bg: #292929;
-$secondary-bg: #291616;
+$colorprimario-bg: #292929;
+$colorsecundario-bg: #291616;
 $accent-color: tomato;
 $hover-color: #dd0d0d;
 $font-color: #ffffff;
@@ -32,7 +32,7 @@ $font4: "Nunito_Sans";
 }
 
 body {
-  background-color: $primary-bg;
+  background-color: $colorprimario-bg;
   color: $font-color;
   margin: 0;
   padding: 20px;
@@ -107,7 +107,7 @@ main {
 }
 
 .juego {
-  background-color: $secondary-bg;
+  background-color: $colorsecundario-bg;
   padding: 15px;
   border-radius: 0 $box-radius;
   text-align: center;
@@ -174,7 +174,7 @@ main {
 }
 
 .footer-redes {
-  background-color: $secondary-bg;
+  background-color: $colorsecundario-bg;
   padding: 30px 0;
   border-radius: $box-radius;
 }
