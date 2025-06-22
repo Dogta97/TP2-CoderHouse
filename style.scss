@@ -40,10 +40,6 @@ main {
   }
 }
 
-.imglogo {
-  display: flex;
-}
-
 .logo-container {
   display: flex;
   justify-content: center;
@@ -53,27 +49,6 @@ main {
     max-width: 250px;
     width: 100%;
   }
-}
-
-.subtitulohtml1 {
-  font-family: $font1;
-  color: rgb(228, 67, 34);
-  font-size: 300%;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.subtitulo2html1 {
-  font-family: $font1;
-  color: rgb(224, 103, 82);
-  font-size: 150%;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.plataformas {
-  font-family: $font2;
-  color: rgb(224, 103, 82);
 }
 
 #plataforma {
@@ -91,12 +66,6 @@ main {
     color: #000000;
     font-family: $font2;
   }
-}
-
-.grid-juegos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 30px;
 }
 
 .juego {
@@ -123,19 +92,6 @@ main {
   }
 }
 
-.nombre-de-juegos {
-  font-family: $font3;
-}
-
-.tipodejuego {
-  font-family: $font4;
-}
-
-.ver-mas-container {
-  text-align: center;
-  margin: 40px;
-}
-
 .ver-mas, .enviar {
   display: inline-block;
   background-color: $button-bg;
@@ -154,37 +110,6 @@ main {
   }
 }
 
-.contacto h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-  color: #eb5a41;
-  font-family: $font3;
-}
-
-.email-msj {
-  color: #eb5a41;
-  font-family: $font3;
-}
-
-.footer-redes {
-  background-color: $colorsecundario-bg;
-  padding: 30px 0;
-  border-radius: $box-radius;
-}
-
-.texto-redes {
-  font-family: $font2;
-  color: rgb(201, 79, 58);
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 24px;
-}
-
-.iconos-redes {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-
   img {
     width: 40px;
     height: 40px;
@@ -194,19 +119,6 @@ main {
       transform: scale(1.2);
     }
   }
-}
-
-.derechos {
-  padding: 30px 0;
-  text-align: center;
-  font-family: $font2;
-  color: #1b0808;
-}
-
-.titulos {
-  font-family: $font2;
-  color: $accent-color;
-}
 
 .personaje-container {
   display: grid;
@@ -228,24 +140,6 @@ main {
   }
 }
 
-.imagen {
-  width: 100%;
-  height: 800px;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
-.nombrepj {
-  font-family: $font2;
-  font-size: 300%;
-  color: black;
-}
-
-.edadpj {
-  font-family: $font2;
-  font-size: 150%;
-}
-
 .pjtexto1, .pjtexto {
   font-family: $font2;
   color: rgb(0, 0, 0);
@@ -253,18 +147,6 @@ main {
   &.pjtexto {
     color: $accent-color;
   }
-}
-
-.pjtextogrande {
-  font-family: $font2;
-  color: $accent-color;
-  font-size: 20px;
-}
-
-.escenario-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
 }
 
 .escenarios {
@@ -407,10 +289,6 @@ main {
 .btn-sm {
   @extend .ver-mas;
   box-shadow: none;
-}
-
-.text-center {
-  font-family: $font3;
 }
 
 @media (max-width: 768px) {
