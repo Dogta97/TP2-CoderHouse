@@ -470,11 +470,6 @@ main h1 {
     transform: translateY(-15px);
   }
 }
-
-.logo-container img {
-  animation: bounce 2s infinite;
-}
-
 .nombrepj{
   animation: bounce 2s infinite;
 }
@@ -490,7 +485,6 @@ main h1 {
     transform: translateY(0);
   }
 }
-
 .escenarios h2,
 .titulos {
   animation: fadeIn 2.8s ease-out forwards;
@@ -512,7 +506,6 @@ main h1 {
     transform: translateX(0);
   }
 }
-
 .titulos {
   display: inline-block;
   animation: moverHorizontal 3s ease-in-out infinite;
@@ -529,7 +522,6 @@ main h1 {
     transform: translateX(-30px);
   }
 }
-
 .escenarios h2 {
   display: inline-block;
   animation: ladoALado 3s ease-in-out infinite;
