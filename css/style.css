@@ -40,7 +40,7 @@ main h1 {
 .subtitulohtml1 {
   font-family: "Gemstone";
   color: rgb(228, 67, 34);
-  font-size: 300%;
+  font-size: 400%;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -48,7 +48,7 @@ main h1 {
 .subtitulo2html1 {
   font-family: "Gemstone";
   color: rgb(224, 103, 82);
-  font-size: 150%;
+  font-size: 330%;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -499,15 +499,6 @@ main h1 {
 .imagen {
   animation: fadeIn 3.8s ease-out forwards;
   opacity: 0;
-}
-
-.subtitulohtml1 {
-  animation: fadeIn 4.8s ease-out forwards;
-  opacity: 1;
-}
-.subtitulo2html1 {
-  animation: fadeIn 4.8s ease-out forwards;
-  opacity: 1;
 }
 
 /*****Responsive*******/
