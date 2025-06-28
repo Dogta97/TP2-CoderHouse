@@ -1,4 +1,8 @@
-@use "variables";
+@use "./components/variables";
+@use "./components/navbar";
+@use "./components/footer";
+@use "./components/main";
+
 
 @font-face {
   font-family: $font1;
@@ -18,15 +22,6 @@
 @font-face {
   font-family: $font4;
   src: url(../fonts/Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC,opsz,wdth,wght.ttf);
-}
-
-main {
-  padding: 20px;
-
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
 }
 
 .logo-container {
@@ -223,57 +218,7 @@ main {
   }
 }
 
-.custom-navbar {
-  background-color: rgba(66, 24, 24, 0.7);
-  backdrop-filter: blur(5px);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 
-  .navbar-brand {
-    color: rgb(10, 0, 0) !important;
-    font-family: $font3;
-    font-weight: bold;
-    font-size: 1.90rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
-
-    &:hover {
-      color: $accent-color !important;
-    }
-  }
-
-  .nav-link {
-    color: #000;
-    font-weight: bold;
-    font-family: $font3;
-    font-size: 20px;
-
-    &:hover {
-      color: rgb(214, 82, 59);
-    }
-  }
-
-  .dropdown-menu {
-    background-color: $accent-color;
-  }
-
-  .dropdown-item {
-    font-family: $font2;
-  }
-
-  form input,
-  form button {
-    border-radius: 50px;
-
-    &::placeholder {
-      color: rgb(252, 7, 7);
-    }
-  }
-
-  .navbar-collapse {
-    justify-content: center;
-  }
-}
 
 .btn-sm {
   @extend .ver-mas;
