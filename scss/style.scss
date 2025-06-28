@@ -2,6 +2,7 @@
 @use "./components/navbar";
 @use "./components/footer";
 @use "./components/main";
+@use "./components/plataforma"
 
 
 @font-face {
@@ -32,23 +33,6 @@
   img {
     max-width: 250px;
     width: 100%;
-  }
-}
-
-#plataforma {
-  background-color: #422b2b;
-  color: #131212;
-  font-family: $font2;
-  padding: 10px;
-  border-radius: 10px;
-  border: none;
-  font-size: 16px;
-  appearance: none;
-
-  option {
-    background-color: #e46262;
-    color: #000000;
-    font-family: $font2;
   }
 }
 
