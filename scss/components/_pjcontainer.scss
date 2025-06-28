@@ -1,0 +1,19 @@
+.personaje-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  background-color: #292020;
+  padding: 20px;
+  border-radius: $box-radius;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  img {
+    border-radius: $box-radius;
+  }
+
+  &.invertido {
+    direction: rtl;
+  }
+}

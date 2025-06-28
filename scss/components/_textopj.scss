@@ -1,0 +1,8 @@
+.pjtexto1, .pjtexto {
+  font-family: $font2;
+  color: rgb(0, 0, 0);
+
+  &.pjtexto {
+    color: $accent-color;
+  }
+}

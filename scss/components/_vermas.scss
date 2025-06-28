@@ -1,0 +1,22 @@
+.ver-mas, .enviar {
+  display: inline-block;
+  background-color: $button-bg;
+  color: #000;
+  font-family: $font3;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #020000;
+    color: $hover-color;
+    transform: scale(1.05);
+  }
+}
+
+.btn-sm {
+  @extend .ver-mas;
+  box-shadow: none;
+}
